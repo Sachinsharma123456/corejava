@@ -1,0 +1,15 @@
+// Name= SACHIN SHARMA
+// Batch=C2533
+public class Datatype {
+    public static void main(String[] args) {
+        byte b=122;
+        short s=30000; 
+        int i=400000000; 
+        long l=1000000000; 
+        float f=1.00000f;
+        double d=1.000000000;
+        char c='1'; 
+        String s1="Viral";
+    }
+}
+

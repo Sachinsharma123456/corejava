@@ -1,0 +1,32 @@
+// Name=Sachin sharma
+// batch=C2533
+
+public class Variable {
+    public static void main(String args[])
+        {
+            int in;
+            int c=5;
+            System.out.println("Instance Variable=" +c);
+
+            public void case()
+            {
+                int b=10; 
+                System.out.println("Value of b : "+b);
+            }
+
+            static int b=50;
+
+            public static void main(String[] args)
+          {
+            Localv l1 = new Localv();
+
+            System.out.println("Instance Variable i : "+l1.i);
+            System.out.println("Instance Variable j : "+l1.j);
+
+            Localv l2 = new Localv();
+            l2.case();
+            System.out.println("Static Variable b : "+l2.b);
+
+        }
+        }
+}

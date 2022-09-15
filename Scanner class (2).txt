@@ -1,0 +1,24 @@
+
+//Name=Sachin Sharma
+//batch=C2533
+import java.util.Scanner;
+
+
+public class Student {
+    public static void main(String[] args) {
+        int id,attendece;
+        String sname;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter name of the student: "); 
+        sname=sc.next();       
+        System.out.print("Enter id of the student: ");
+        id=sc.nextInt();   
+        System.out.print("Enter attendence of the student: ");
+        attendece=sc.nextInt();
+        System.out.println("Name of the student is: "+sname);
+        System.out.println("Id of the student: "+id);
+        System.out.println("Attendece of the student is : "+attendece);
+    }
+}
+
+

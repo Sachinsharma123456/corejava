@@ -1,0 +1,22 @@
+// Name=Sachin sharma
+// batch=C2533
+
+
+
+public class Operator {
+    public static void main(String[] args) {
+        int a,b,add,d,max,And,inr;
+        a=15;
+        b=10;
+        add=a+b;
+        d=+a;
+        max=(a>b?a:b);
+        And=a&b;
+        inr=++a;
+        System.out.println("Addition of Two Number is: "+add);
+        System.out.println("Addition the Number using multiple operator is: "+d);
+        System.out.println("Maximum Number is(using ternary opertor): "+max);
+        System.out.println("Bitwise AND of Two Number is: "+And);
+        System.out.println("increament value by 1 that is: "+inr);
+    }
+}
